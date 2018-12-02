@@ -1,0 +1,73 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom should equal footer height */
+  margin-bottom: 40px;
+  background-color: #152543;
+  color: rgba(230,230,230,1);
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 40px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+#footer em {
+  font-size: 0.8em;
+}
+
+.container h1, h2, h3, h4, h5, h6 {
+  margin: 0 0;
+  letter-spacing:-0.08em;
+}
+
+.container h1 {
+  white-space:nowrap;
+  font-size: 10vw; 
+}
+@media (min-width:480px) {
+  .container h1 {
+    font-size: 7vw;
+  }
+}
+.container h2 {
+  font-size: 2em;
+}
+@media (min-width:768px) {
+  .container h2 {
+    font-size: 4em;
+  }
+}
+
+.container img {
+  width: 100px;
+  height: auto;
+  float: right;
+}
+@media (min-width:768px) {
+  .container img {
+    width: 200px;
+  }
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0px;
+  height: 100%;
+  width:  100%;
+}
+
+a {
+  color: #24b2ff;
+}
+a:hover {
+  color: #fff;
+}

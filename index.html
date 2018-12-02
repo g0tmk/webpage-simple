@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Brandon Ivy, brandonivy.com">
+    <meta name="keywords" content="Brandon Ivy">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Brandon Ivy - Computer Engineer</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--social icons-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+
+    <link rel="stylesheet" href="assets/index.css">
+  </head>
+
+  <body>
+    <canvas id="snow-canvas"></canvas>
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <h1>brandon ivy</h1>
+        </div>
+        <div class="col-lg">
+          <div class="row">
+            <div class="col-sm">
+              <img src="assets/qr_code_200_333_white204.gif">
+              <h2>about</h2>
+
+              <p>
+                I'm a Computer Engineer who lives in Southern California.
+                I love to program; it is part of who I am.
+
+                I could do it all day, every day. No really.
+              </p>
+              <h2>experience</h2>
+              <p>
+                <!-- TODO: become a better writer
+
+                I've been writing code for a long time now, and i've come to
+                realize it's 20% coding and 80% learning.
+
+                If there is one thing exploring different technologies has 
+                taught me, it is that there are infinite different ways to 
+                solve a given problem -- and that the most comfortable way is 
+                rarely the best.
+
+                There are new platforms, libraries, and tools released every 
+                day and I consider keeping up with them the single most 
+                important thing any programmer can do.
+                -->
+              </p>
+              <p>
+                I have worked in a few different fields, including embedded 
+                aerospace, distributed systems, and app development. I've also
+                managed to get a decent amount of experience in encryption as
+                well.
+              </p>
+              <p>
+                I invented a generator design that works well at low RPMs, all
+                but eliminating the need of wind turbine gearboxes. I also 
+                helped my old high school become the first one to 
+                <a href="https://www.vcs.net/page.cfm?p=501">send
+                experiments</a> to the ISS.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+                <h2>contact</h2>
+            </div>
+            <div class="col-sm">
+                <p class="contact-info">
+                  <div id="obf">
+                      <script>
+                          document.getElementById("obf").innerHTML=
+                              "rznvy: <n uers=\"znvygb:zr@oenaqbavil.pbz\" gnetrg=\"_oynax\">zr@oenaqbavil.pbz</n>"
+                                .replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+                      </script>
+                      <noscript>
+                          <span style="unicode-bidi:bidi-override;direction:rtl;">moc.yvinodnarb@em</span>
+                      </noscript>
+                  </div>
+                </p>
+            </div>
+          </div>
+          <p> 
+            <a class="btn btn-social-icon btn-sm btn-bitbucket" title="Bitbucket" href="https://bitbucket.org/g0tmk/"><span class="fa fa-bitbucket"></span></a>
+            <a class="btn btn-social-icon btn-sm btn-github" title="GitHub" href="https://github.com/g0tmk"><span class="fa fa-github"></span></a>
+            <a class="btn btn-social-icon btn-sm btn-facebook" title="Facebook" href="https://www.facebook.com/brandon.ivy1"><span class="fa fa-facebook"></span></a>
+            <a class="btn btn-social-icon btn-sm btn-twitter" title="Twitter" href="https://twitter.com/bivy"><span class="fa fa-twitter"></span></a>
+            <a class="btn btn-social-icon btn-sm btn-google" title="Google+" href="https://plus.google.com/+BrandonIvy"><span class="fa fa-google"></span></a>
+            <a class="btn btn-social-icon btn-sm btn-linkedin" title="LinkedIn" href="www.linkedin.com/in/brandonivy/"><span class="fa fa-linkedin"></span></a>
+            <!--<a class="btn btn-social-icon btn-sm btn-skype" title="Skype" href="skype:brandon.ivy?chat"</a><span class="fa fa-skype"></span></a>-->
+            <!--<a class="btn btn-social-icon btn-sm btn-reddit" title="Reddit" href="http://www.reddit.com/user/ShadowKCt/"><span class="fa fa-reddit"></span></a>-->
+            <!--<a class="btn btn-social-icon btn-sm btn-soundcloud" title="SoundCloud" href="#"</a><span class="fa fa-soundcloud"></span></a>-->
+            <!--<a class="btn btn-social-icon btn-sm btn-stack-overflow" title="Stack Overflow" href="#"><span class="fa fa-stack-overflow"></span></a>-->
+          </p>
+          <p>
+            The best way to get in touch with me is via email. 
+            I'm (usually) quite responsive.
+            <!--Here is a copy of my <a href="assets/bivy-resume.pdf">resume</a>.-->
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          <em><!--Could put text here--></em>
+        </p>
+        <p class="text-right">
+          <em>Copyright© 2019</em>
+        </p>
+        <!-- TODO: clear float if necessary -->
+      </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <script src="assets/snowflakes.js"></script>
+    <script>console.log("Please don't steal my stuff ;) Thanks!");</script>
+  </body>
+</html>
